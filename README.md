@@ -18,3 +18,27 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
   
   b) log files are stored at: results/logs/results/
   
+* Output
+
+  a) without phased vcf file: 
+   
+     align_table/
+     
+     basecall/
+     
+     benchmarks/
+     
+     contacts/
+     
+     logs/
+     
+     mapping/
+     
+     merged_contacts/
+     
+     refgenome/
+     
+     virtual_digest/
+     
+     
+  
