@@ -22,7 +22,7 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
   
 * Output
 
-  a) optional output with phased vcf file: 
+  a) I don't see any of the below output files were generated as described in the original repo, with or withour phased vcf file: 
    
      matrix/
      
