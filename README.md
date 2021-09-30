@@ -14,9 +14,11 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
   
 * To run on cluster
 
-  a) allow more than 4G memory for running snakemake, otherwise some conda environment installation may fail. 
+  a) the correct conda environment name is : conda activate pore-c-snakemake, NOT pore_c_snakemake as shown in the original repo.
+
+  b) allow more than 4G memory for running snakemake, otherwise some conda environment installation may fail. 
   
-  b) log files are stored at: results/logs/results/
+  c) log files are stored at: results/logs/results/
   
 * Output
 
@@ -40,5 +42,8 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
      
      virtual_digest/
      
+   b) a extra step is needed to merged all splited bam files
+   
+   c) the DNA contact information is stored in the file: merged_contacts/*.concatemers.parquet. Convert it to the CVS format if needed.  
      
   
