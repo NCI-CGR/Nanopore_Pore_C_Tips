@@ -22,28 +22,18 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
   
 * Output
 
-  a) without phased vcf file: 
+  a) optional output with phased vcf file: 
    
-     align_table/
+     matrix/
      
-     basecall/
+     pairs/
      
-     benchmarks/
+     assembly/
      
-     contacts/
+     juicebox/
      
-     logs/
-     
-     mapping/
-     
-     merged_contacts/
-     
-     refgenome/
-     
-     virtual_digest/
-     
-   b) a extra step is needed to merged all splited bam files
+  b) a extra step is needed to merged all splited bam files
    
-   c) the DNA contact information is stored in the file: merged_contacts/*.concatemers.parquet. Convert it to the csv format if needed.  
+  c) the DNA contact information is stored in the file: merged_contacts/*.concatemers.parquet. Convert it to the csv format if needed.  
      
   
