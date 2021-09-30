@@ -44,6 +44,6 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
      
    b) a extra step is needed to merged all splited bam files
    
-   c) the DNA contact information is stored in the file: merged_contacts/*.concatemers.parquet. Convert it to the CVS format if needed.  
+   c) the DNA contact information is stored in the file: merged_contacts/*.concatemers.parquet. Convert it to the csv format if needed.  
      
   
