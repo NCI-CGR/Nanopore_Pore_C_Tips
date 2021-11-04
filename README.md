@@ -19,6 +19,8 @@ This Documentation provides some tips for running [Nanopore Pore C pipeline](htt
   b) allow more than 4G memory for running snakemake, otherwise some conda environment installation may fail. 
   
   c) log files are stored at: results/logs/results/
+
+  d) the workflow "pairs" and "cooler" are not included in the workflow "all". You need to run them additionally.
   
 * Output
 
